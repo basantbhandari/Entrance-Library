@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:id="@+id/main_ll_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/main_tv_question"
+        android:layout_height="140dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+        android:text="Quistion is here... "
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:weightSum="100">
+        <Button
+            android:id="@+id/main_btn_option1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:layout_weight="25"
+            android:textAllCaps="false"
+            android:text="option 1" />
+
+        <Button
+            android:id="@+id/main_btn_option2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:layout_weight="25"
+            android:layout_marginTop="8dp"
+            android:textAllCaps="false"
+            android:text="option 2" />
+        <Button
+            android:id="@+id/main_btn_option3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:layout_weight="25"
+            android:layout_marginTop="8dp"
+            android:textAllCaps="false"
+            android:text="option 3" />
+        <Button
+            android:id="@+id/main_btn_option4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:layout_weight="25"
+            android:layout_marginTop="8dp"
+            android:textAllCaps="false"
+            android:text="option 4" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/main_tv_time_duration"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="00:00:00"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+
+        />
+</LinearLayout>
+
+</RelativeLayout>

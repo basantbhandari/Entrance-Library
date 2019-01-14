@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "239724169097",
+    "firebase_url": "https://entrancelibrary.firebaseio.com",
+    "project_id": "entrancelibrary",
+    "storage_bucket": "entrancelibrary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239724169097:android:69bc7566fdf1c649",
+        "android_client_info": {
+          "package_name": "com.example.yesicbap.entrancelibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239724169097-f8b57kt8f5f905o4ul5uokn1vmi6a8k1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSrOLjZL7ih_q8kHFNz05_4dd6PRTd_jQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

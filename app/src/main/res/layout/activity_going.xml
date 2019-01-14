@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/goingbackground"
+    tools:context=".GoingActivity">
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="Isn't it exciting,"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:textColor="#00ff00"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/going_activity_welcome_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="240dp"
+        android:textSize="50sp"
+        android:textColor="#04f4d4"
+        android:textStyle="bold"
+        android:text="Getting started to "/>
+</RelativeLayout>
